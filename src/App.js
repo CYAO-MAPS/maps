@@ -1,24 +1,66 @@
-import logo from './logo.svg';
 import './App.css';
+import NavBar from './components/NavBar';
+import {BrowserRouter as HashRouter, Routes, Route} from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link';
+import Home from './screens/Home';
+import Benefits from './screens/Benefits';
+import Team from './screens/Team';
+import How from './screens/How';
+import Market from './screens/Market';
+import ContactUs from './screens/ContactUs';
+import Footer from './components/Footer';
+
 
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <HashRouter>
+      <div className="App">
+      
+        <div className = "Sidebar">
+          <NavBar/>
+        </div>
+
+        <div className="Content">
+
+        {/* <Routes>
+            <Route path='/'  element={<Home/>}></Route>
+            <Route path='/benefits'  element={<Benefits/>}></Route>
+            <Route path='/how'  element={<How/>}></Route>
+            <Route path='/market'  element={<Market/>}></Route>
+            <Route path='/team'  element={<Team/>}></Route>
+            <Route path='/contactus'  element={<ContactUs/>}></Route>
+        </Routes> */}
+          
+          <section id="home">
+            <Home/>
+          </section>
+          <section id="benefits">
+            <Benefits/>
+          </section>
+          <section id="how">
+            <How/>
+            </section>
+          <section id="market">
+            <Market/>
+            </section>
+          <section id="team">
+            <Team/>
+            </section>
+          <section id="contactus">
+            <ContactUs/>
+            </section>
+
+        </div>
+
+        <div className="Footer">
+          <Footer/>
+        </div>
+        
+      
+      </div>
+    </HashRouter>
+
   );
 }
 

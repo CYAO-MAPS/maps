@@ -1,0 +1,14 @@
+.contactus-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contactus-title {
+  text-align: left;
+  padding: 1rem;
+}
+
+.contactus-image {
+  padding: 1rem;
+}

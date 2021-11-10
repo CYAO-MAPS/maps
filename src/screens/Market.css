@@ -1,0 +1,14 @@
+.market-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.market-title {
+  text-align: left;
+  padding: 1rem;
+}
+
+.market-image {
+  padding: 1rem;
+}
