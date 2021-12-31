@@ -7,8 +7,12 @@
 .market-title {
   text-align: left;
   padding: 1rem;
+  max-width: 50%;
 }
 
-.market-image {
+.market-image-block {
   padding: 1rem;
+}
+.market-image {
+  padding-top: 3rem;
 }

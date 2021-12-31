@@ -8,7 +8,7 @@ function Home() {
                 <div className="home-title">
                     <h1>McGuire Aero Propulsion Solutions</h1>
                     <h2>A Novel Micro Power Plant Solution</h2>
-                    <h3>Green. Reliable. Efficient. Cost-Effective</h3>
+                    <h3>Green. Reliable. Efficient. Cost-Effective.</h3>
                 </div>
                 <div classname = "home-image">
                     <img src="https://source.unsplash.com/random/400x300?sig=1"/>

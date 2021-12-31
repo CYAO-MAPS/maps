@@ -7,7 +7,7 @@ function TeamCard({image, name, title, summary, text}) {
             <img src={image}/>
             <h3>{name}</h3>
             <h4>{title}</h4>
-            <p>{summary}</p>
+            <p className= "teamcard-summary">{summary}</p>
         </div>
     );
 }

@@ -1,3 +1,6 @@
 .teamcard-container {
   max-width: 250px;
 }
+.teamcard-summary {
+  text-align: justify;
+}

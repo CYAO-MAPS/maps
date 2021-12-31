@@ -3,6 +3,17 @@ import Modal from 'react-modal';
 import './BenefitsCard.css'
 
 
+const modalStyles = {
+    content: {
+        top: '50%',
+        left: '50%',
+        right: 'auto',
+        bottom: 'auto',
+
+        transform: 'translate(-50%, -50%)',
+      },
+}
+
 
 function BenefitsCard({image, title, summary, text}) {
     const [modalOpen, setModalOpen] = useState(false)
@@ -19,15 +30,17 @@ function BenefitsCard({image, title, summary, text}) {
             <p>{summary}</p>
             {/* <button onPress={openMod}>Close</button> */}
 
-            <div onClick={toggleModal}>
+            <div onClick={toggleModal} className = "benefits-modal">
             <Modal
-            isOpen = {modalOpen}
-            onRequestClose={toggleModal}
-            // style={customStyles}
-            contentLabel="Example Modal"
-            onClick={toggleModal}
+                // isOpen = {modalOpen}
+                isOpen = {false}
+                onRequestClose={toggleModal}
+                style={modalStyles}
+                contentLabel="Example Modal"
+                onClick={toggleModal}
+                // 
             >
-                <div>I am a modal</div>
+                <div dangerouslySetInnerHTML={{__html: text}} />
                 {/* <button onPress={toggleModal}>Close</button> */}
             </Modal>
             </div>
