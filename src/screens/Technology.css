@@ -1,0 +1,25 @@
+.tech-container {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.tech-copy {
+  text-align: left;
+  padding: 1rem;
+  max-width: 50%;
+}
+
+/* .tech-title {
+  font-size: 3rem;
+} */
+
+.tech-image {
+  /* padding-right: 1rem; */
+  width: 350px;
+}
+.tech-list {
+  font-size: larger;
+}
