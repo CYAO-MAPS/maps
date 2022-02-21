@@ -14,7 +14,7 @@
   grid-column-start: 3;
   grid-column-end: 4;
   /* background: lightgray; */
-  padding: 5rem;
+  padding: 2rem;
 }
 
 .Sidebar {
@@ -30,7 +30,8 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  background: lightgrey;
+  color: var(--colour_background);
+  background-color: var(--colour_primary);
   /* color: white; */
 }
 

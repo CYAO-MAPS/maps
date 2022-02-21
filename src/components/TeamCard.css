@@ -1,6 +1,10 @@
 .teamcard-container {
-  max-width: 250px;
+  width: 250px;
 }
 .teamcard-summary {
   text-align: justify;
+}
+
+.teamcard-image {
+  width: 200px;
 }

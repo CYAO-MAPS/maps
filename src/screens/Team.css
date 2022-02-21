@@ -1,6 +1,12 @@
 .team-container {
+  padding-top: 0.01rem;
+}
+.team-content-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
+  background-color: var(--colour_primary);
+  color: var(--colour_background);
+  padding-top: 2rem;
 }

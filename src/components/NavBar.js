@@ -23,45 +23,50 @@ function NavBar() {
 
 window.addEventListener('resize', showButton)
 
+const scrollWithOffset = (el, yOffset=-80) => {
+    const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
+    // const yOffset = -80; 
+    window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' }); 
+}
 
     return (
         <>
         <nav className = "navbar">
             <div className = "navbar-container">
                 <Link to="/" className="navbar-logo">
-                    MAPS-Power
+                    MAPS
                 </Link>
                 <div className = 'menu-icon' onClick={handleClick}>
                     <i className = {click ? 'fas fa-times': 'fas fa-bars'}/>
                 </div>
                 <ul className={click ? 'nav-menu active':'nav-menu'}>
                     <li className='nav-item'>
-                        <Link smooth to = '#home' className='nav-links' onClick={closeMobileMenu}>
+                        <Link smooth to = '#home' scroll={el => scrollWithOffset(el, -120)} className='nav-links' onClick={closeMobileMenu}>
                             Home
                         </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link smooth to = '#benefits' className='nav-links' onClick={closeMobileMenu}>
+                        <Link smooth to = '#benefits' scroll={el => scrollWithOffset(el)} className='nav-links' onClick={closeMobileMenu}>
                             Benefits
                         </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link smooth to = '#how' className='nav-links' onClick={closeMobileMenu}>
-                            How
+                        <Link smooth to = '#how' scroll={el => scrollWithOffset(el)} className='nav-links' onClick={closeMobileMenu}>
+                            Technology
                         </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link smooth to = '#market' className='nav-links' onClick={closeMobileMenu}>
+                        <Link smooth to = '#market' scroll={el => scrollWithOffset(el)} className='nav-links' onClick={closeMobileMenu}>
                             Market
                         </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link smooth to = '#team' className='nav-links' onClick={closeMobileMenu}>
-                            Team
+                        <Link smooth to = '#team' scroll={el => scrollWithOffset(el)} className='nav-links' onClick={closeMobileMenu}>
+                            Leadership
                         </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link smooth to = '#contactus' className='nav-links' onClick={closeMobileMenu}>
+                        <Link smooth to = '#contactus' scroll={el => scrollWithOffset(el)} className='nav-links' onClick={closeMobileMenu}>
                             Contact Us
                         </Link>
                     </li>

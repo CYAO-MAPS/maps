@@ -4,22 +4,46 @@
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  background-color: var(--colour_primary);
+  color: var(--colour_background);
+  margin-top: 2rem;
+  padding-bottom: 1rem;
 }
 
 .tech-copy {
   text-align: left;
   padding: 1rem;
+  padding-bottom: 0rem;
   max-width: 50%;
 }
 
-/* .tech-title {
-  font-size: 3rem;
-} */
+.tech-title {
+  margin-left: 1rem;
+}
 
 .tech-image {
   /* padding-right: 1rem; */
-  width: 350px;
+  width: 330px;
+  padding-bottom: 1rem;
+  margin-left: 1rem;
+  margin-top: 25%;
 }
 .tech-list {
-  font-size: larger;
+  font-size: large;
+}
+.tech-list-item {
+  margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 1042px) {
+  .tech-title {
+    margin-left: 0;
+  }
+  .tech-copy {
+    max-width: 100%;
+  }
+  .tech-image {
+    max-width: 90%;
+    margin: 1rem;
+  }
 }

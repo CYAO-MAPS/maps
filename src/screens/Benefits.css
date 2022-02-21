@@ -1,6 +1,13 @@
 .benefits-container {
+  padding-top: 0.01rem;
+}
+.benefits-content-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1rem;
+  gap: 1.5rem;
+  /* background-color: var(--colour_quinary); */
 }
+/* .benefits-title {
+  font-size: 3rem;
+} */

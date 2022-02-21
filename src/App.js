@@ -5,7 +5,7 @@ import { HashLink } from 'react-router-hash-link';
 import Home from './screens/Home';
 import Benefits from './screens/Benefits';
 import Team from './screens/Team';
-import How from './screens/How';
+import Technology from './screens/Technology';
 import Market from './screens/Market';
 import ContactUs from './screens/ContactUs';
 import Footer from './components/Footer';
@@ -39,7 +39,7 @@ function App() {
             <Benefits/>
           </section>
           <section id="how">
-            <How/>
+            <Technology/>
             </section>
           <section id="market">
             <Market/>
@@ -53,9 +53,9 @@ function App() {
 
         </div>
 
-        <div className="Footer">
+        {/* <div className="Footer">
           <Footer/>
-        </div>
+        </div> */}
         
       
       </div>

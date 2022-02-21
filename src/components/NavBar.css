@@ -1,6 +1,7 @@
 .navbar {
   /* background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
-  background: lightgray;
+  background: var(--colour_primary);
+  color: var(--colour_background);
   height: 100%;
   width: 300px;
   position: fixed;
@@ -16,13 +17,13 @@
 .navbar-container {
   /* display: flex; */
   justify-content: center;
-  align-items: center;
+  align-items: left;
   /* height: 80px; */
-  max-width: 300px;
+  max-width: 90%;
 }
 
 .navbar-logo {
-  color: black;
+  color: var(--colour_background);
   /* justify-self: start; */
   margin-left: 20px;
   cursor: pointer;
@@ -45,8 +46,9 @@
   list-style: none;
   text-align: center;
   width: 100%;
+  padding-left: 15%;
   /* justify-content: end; */
-  margin-right: 2rem;
+  /* margin-right: 2rem; */
 }
 
 .nav-item {
@@ -54,17 +56,18 @@
 }
 
 .nav-links {
-  color: black;
+  color: var(--colour_background);
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  /* padding: 0.5rem 1rem; */
   height: 100%;
+  font-size: x-large;
 }
 
 .nav-links:hover {
-  background-color: white;
-  color: #242424;
+  background-color: var(--colour_background);
+  color: var(--colour_primary);
   transition: all 0.2s ease-out;
 }
 
@@ -79,7 +82,11 @@
 @media screen and (max-width: 960px) {
   .navbar {
     position: relative;
-    width: auto;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 95%;
+    height: 80px;
     padding-right: 5%;
   }
 
@@ -104,7 +111,7 @@
   }
 
   .nav-menu.active {
-    background: lightgray;
+    background: var(--colour_background);
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -113,14 +120,15 @@
 
   .nav-links {
     text-align: start;
+    color: var(--colour_primary);
     /* padding: 2rem; */
     width: 100%;
     /* display: table; */
   }
 
   .nav-links:hover {
-    background-color: white;
-    color: #242424;
+    background-color: var(--colour_primary);
+    color: var(--colour_background);
     /* border-radius: 0; */
   }
 
@@ -143,12 +151,12 @@
   }
 
   .fa-times {
-    color: black;
+    color: var(--colour_background);
     font-size: 2rem;
   }
 
   .fa-bars {
-    color: black;
+    color: var(--colour_background);
     left: 7px;
     top: -2px;
     position: relative;
@@ -163,15 +171,15 @@
     text-decoration: none;
     font-size: 1.5rem;
     background-color: transparent;
-    color: white;
+    /* color: var(--colour_background); */
     padding: 14px 20px;
     border: 1px solid #fff;
     transition: all 0.3s ease-out;
   }
 
   .nav-links-mobile:hover {
-    background: white;
-    color: #242424;
+    /* background: white; */
+    /* color: #242424; */
     transition: 250ms;
   }
 }

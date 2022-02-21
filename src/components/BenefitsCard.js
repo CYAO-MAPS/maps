@@ -25,7 +25,7 @@ function BenefitsCard({image, title, summary, text}) {
       
     return (
         <div className = "benefitscard-container" onClick={toggleModal}>
-            <img src={image}/>
+            <img src={image} className="benefitscard-image"/>
             <h3>{title}</h3>
             <p>{summary}</p>
             {/* <button onPress={openMod}>Close</button> */}

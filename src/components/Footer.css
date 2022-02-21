@@ -1,0 +1,11 @@
+.footer {
+  background-color: var(--colour_primary);
+  color: var(--colour_background);
+  width: 100%;
+
+  /* position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 100; */
+}

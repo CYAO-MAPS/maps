@@ -1,8 +1,21 @@
 .benefitscard-container {
   width: 400px;
-  text-align: justify;
+  text-align: center;
+  /* background-color: var(--colour_primary); */
+  /* background-color: white; */
+  color: var(--colour_primary);
+  border: solid;
+  border-color: var(--colour_primary);
+  /* color: var(--colour_background); */
+  padding: 25px;
 }
-.enefits-modal {
+.benefitscard-modal {
   width: 50%;
   text-align: justify;
+}
+.benefitscard-image {
+  width: 250px;
+  height: 250px;
+  /* background-color: var(--colour_background); */
+  padding: 2rem;
 }

@@ -1,14 +1,39 @@
 .contactus-container {
-  display: flex;
-  flex-wrap: wrap-reverse;
-  justify-content: center;
+  /* display: flex; */
+  /* flex-wrap: wrap-reverse; */
+  padding-top: 3rem;
 }
 
+.contactus-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 .contactus-title {
-  text-align: left;
-  padding: 1rem;
+  text-align: center;
 }
 
 .contactus-image {
-  padding: 1rem;
+  padding-left: 2rem;
+  width: 150px;
+  height: 150px;
+}
+
+/* .contactus-address-container {
+  display: flex;
+} */
+.contactus-text {
+  text-align: left;
+  /* font-size: large; */
+  margin-left: 2rem;
+  font-style: normal;
+}
+
+.contactus-name {
+  font-size: larger;
+  margin-top: 0;
+}
+.contactus-address {
+  font-size: large;
+  margin-top: -1.5rem;
 }

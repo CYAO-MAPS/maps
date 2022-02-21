@@ -1,13 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+/* @import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css?family=Commissioner");
+@import url("https://fonts.googleapis.com/css?family=Encode+Sans");
+@import url("https://fonts.googleapis.com/css?family=Manrope");
+@import url("https://fonts.googleapis.com/css?family=Mulish");
+@import url("https://fonts.googleapis.com/css?family=Outfit");
+@import url("https://fonts.googleapis.com/css?family=Work+Sans"); */
+
+:root {
+  --colour_primary: #003078;
+  /* --colour_primary: #173042; */
+  /* filter: invert(15%) sepia(55%) saturate(512%) hue-rotate(161deg) brightness(97%) contrast(96%); */
+  /* --colour_secondary: #236477; */
+  /* filter: invert(31%) sepia(29%) saturate(1013%) hue-rotate(147deg) brightness(96%) contrast(87%); */
+  /* --colour_tertiary: #cfdfda; */
+  /* filter: invert(97%) sepia(11%) saturate(239%) hue-rotate(95deg) brightness(94%) contrast(86%); */
+  /* --colour_quarternary: #7cad3e; */
+  /* filter: invert(55%) sepia(68%) saturate(379%) hue-rotate(44deg) brightness(98%) contrast(89%); */
+  /* --colour_quinary: #4a6c2f; */
+  /* filter: invert(36%) sepia(23%) saturate(967%) hue-rotate(50deg) brightness(96%) contrast(88%); */
+
+  --colour_background: white;
+  /* --colour_background: var(--colour_tertiary); */
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+
+  /* Soft, pending colour */
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+
+  /* font-family: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif; */
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 1.2rem;
+  /* color: rgb(54, 54, 54); */
+  background-color: var(--colour_background);
+  color: var(--colour_primary);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+a {
+  color: var(--colour_primary);
 }
