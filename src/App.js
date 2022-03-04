@@ -14,7 +14,7 @@ import Footer from './components/Footer';
 function App() {
   
   return (
-    <HashRouter>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <div className="App">
       
         <div className = "Sidebar">
