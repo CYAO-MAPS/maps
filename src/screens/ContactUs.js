@@ -16,8 +16,8 @@ function ContactUs() {
                     <address className='contactus-text'>
                         <h4 className='contactus-name'>MAPS</h4>
                         <div className='contactus-address'>
-                        8-244 Brockport DR, <br/>
-                        Toronto, On, <br/>
+                        8-244 Brockport Dr., <br/>
+                        Toronto, On <br/>
                         Canada <br/>
                         M9W 6X9<br/>
                         <a href = "mailto:info@maps-power.com">info@maps-power.com</a>

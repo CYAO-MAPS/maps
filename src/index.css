@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
+/* @import url("https://fonts.googleapis.com/css?family=Montserrat"); */
+@import url("https://fonts.googleapis.com/css?family=Inter");
 /* @import url("https://fonts.googleapis.com/css?family=Lato");
 @import url("https://fonts.googleapis.com/css?family=Commissioner");
 @import url("https://fonts.googleapis.com/css?family=Encode+Sans");
@@ -28,9 +29,9 @@ body {
   margin: 0;
 
   /* Soft, pending colour */
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-    "Helvetica Neue", sans-serif;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
 
   /* font-family: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI",
     "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
