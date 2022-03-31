@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.b6fde77e.chunk.css",
-    "main.js": "/static/js/main.cc62c773.chunk.js",
-    "main.js.map": "/static/js/main.cc62c773.chunk.js.map",
+    "main.css": "/static/css/main.684035da.chunk.css",
+    "main.js": "/static/js/main.af083dac.chunk.js",
+    "main.js.map": "/static/js/main.af083dac.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e0360e28.js",
     "runtime-main.js.map": "/static/js/runtime-main.e0360e28.js.map",
     "static/js/2.c043b302.chunk.js": "/static/js/2.c043b302.chunk.js",
@@ -10,27 +10,27 @@
     "static/js/3.fd8ebf86.chunk.js": "/static/js/3.fd8ebf86.chunk.js",
     "static/js/3.fd8ebf86.chunk.js.map": "/static/js/3.fd8ebf86.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.b6fde77e.chunk.css.map": "/static/css/main.b6fde77e.chunk.css.map",
+    "static/css/main.684035da.chunk.css.map": "/static/css/main.684035da.chunk.css.map",
     "static/js/2.c043b302.chunk.js.LICENSE.txt": "/static/js/2.c043b302.chunk.js.LICENSE.txt",
-    "static/media/benefit_box.d51613d5.svg": "/static/media/benefit_box.d51613d5.svg",
-    "static/media/benefit_cost.9d736ed7.svg": "/static/media/benefit_cost.9d736ed7.svg",
-    "static/media/benefit_fuel.88e452a1.svg": "/static/media/benefit_fuel.88e452a1.svg",
-    "static/media/benefit_int_mod.7578b1f7.svg": "/static/media/benefit_int_mod.7578b1f7.svg",
-    "static/media/benefit_intelligent.3df475f7.svg": "/static/media/benefit_intelligent.3df475f7.svg",
-    "static/media/benefit_sustainable.563b39eb.svg": "/static/media/benefit_sustainable.563b39eb.svg",
-    "static/media/contact_us.6f2318f8.svg": "/static/media/contact_us.6f2318f8.svg",
+    "static/media/benefit_box.5cd91f20.png": "/static/media/benefit_box.5cd91f20.png",
+    "static/media/benefit_cost.6ff2bfd8.png": "/static/media/benefit_cost.6ff2bfd8.png",
+    "static/media/benefit_fuel.36feb556.png": "/static/media/benefit_fuel.36feb556.png",
+    "static/media/benefit_int_mod.51bf7878.png": "/static/media/benefit_int_mod.51bf7878.png",
+    "static/media/benefit_intelligent.0228c8e9.png": "/static/media/benefit_intelligent.0228c8e9.png",
+    "static/media/benefit_sustainable.b459cded.png": "/static/media/benefit_sustainable.b459cded.png",
+    "static/media/contact_us.1f29dacf.svg": "/static/media/contact_us.1f29dacf.svg",
     "static/media/home_MPP.f550d26d.png": "/static/media/home_MPP.f550d26d.png",
     "static/media/logo.a7ad0637.svg": "/static/media/logo.a7ad0637.svg",
-    "static/media/market.24d0f708.svg": "/static/media/market.24d0f708.svg",
+    "static/media/market.08e4ea03.png": "/static/media/market.08e4ea03.png",
     "static/media/portrait_DanM.1039e932.jpg": "/static/media/portrait_DanM.1039e932.jpg",
     "static/media/portrait_PaulM.aed57c45.jpg": "/static/media/portrait_PaulM.aed57c45.jpg",
     "static/media/portrait_PierreC.e84f9724.jpg": "/static/media/portrait_PierreC.e84f9724.jpg",
-    "static/media/tech_turbine.f539d70c.png": "/static/media/tech_turbine.f539d70c.png"
+    "static/media/tech_turbine.06bab267.png": "/static/media/tech_turbine.06bab267.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e0360e28.js",
     "static/js/2.c043b302.chunk.js",
-    "static/css/main.b6fde77e.chunk.css",
-    "static/js/main.cc62c773.chunk.js"
+    "static/css/main.684035da.chunk.css",
+    "static/js/main.af083dac.chunk.js"
   ]
 }
