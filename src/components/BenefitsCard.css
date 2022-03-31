@@ -14,7 +14,7 @@
   text-align: justify;
 }
 .benefitscard-image {
-  width: 250px;
+  /* width: 250px; */
   height: 250px;
   /* background-color: var(--colour_background); */
   padding: 2rem;

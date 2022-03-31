@@ -1,6 +1,6 @@
 import React from 'react';
 import './Market.css'
-import SVG_Market from '../graphics/market.svg';
+import SVG_Market from '../graphics/market.png';
 
 
 function Market() {
@@ -21,8 +21,8 @@ function Market() {
                     </ul> */}
                     <h3>Industrial and Commercial electrical solutions:</h3>
                     <ul className='market-list'>
-                        <li className='market-list-item'>Significant cost savings by providing a price ceiling on electricity consumption</li>
                         <li className='market-list-item'>Mitigate outages causing downtime, supply-chain disruption, and brand reputation damage</li>
+                        <li className='market-list-item'>Significant cost savings by providing a price ceiling on electricity</li>
                         <li className='market-list-item'>Incremental electricity service to expand business operations in grid limited locations</li>
                         <li className='market-list-item'>Cost-competitive path to meet net-zero emissions targets</li>
                     </ul>

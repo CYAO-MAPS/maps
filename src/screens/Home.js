@@ -13,7 +13,7 @@ function Home() {
                     <h5>McGuire Aero Propulsion Solutions</h5>
                     {/* <h2>On-Site, Breakthrough Power Generation Technology, Leading the Transformation to Net-Zero</h2> */}
                     <h2>Transformative,<br/> 
-                        Net-Zero+ <br/>
+                        Net-Zero<br/>
                         Power Generation</h2>
                 </div>
                 <div>
